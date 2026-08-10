@@ -1,5 +1,5 @@
 .TodoSearch {
-   width: fill-available;
+   width: stretch;
    padding: 16px;
    border: 2px solid #434446;
    border-radius: 4px;
