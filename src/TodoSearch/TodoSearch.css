@@ -1,10 +1,10 @@
 .TodoSearch {
    width: stretch;
    padding: 16px;
-   border: 2px solid #434446;
+   border: 2px solid #585858;
    border-radius: 4px;
    font-size: 16px;
-   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+   /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .TodoSearch::placeholder {
