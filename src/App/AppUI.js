@@ -6,13 +6,15 @@ import { CreateTodoButton } from "../CreateTodoButton";
 
 
 function AppUI({
-   completedTodos,
-   totalTodos,
-   searchValue,
-   setSearchValue,
-   searchedTodos,
-   completeTodo,
-   deleteTodo
+  loading,
+  error,
+  completedTodos,
+  totalTodos,
+  searchValue,
+  setSearchValue,
+  searchedTodos,
+  completeTodo,
+  deleteTodo
 }) {
    return (
     <>
@@ -23,6 +25,10 @@ function AppUI({
       />
       
       <TodoList>
+        {loading && <p>Cargando...</p>}
+        {error && <p>Error...</p>}
+        {(!loading && searchedTodos.length === 0) && <p>No hay todos :D</p>}
+
         {searchedTodos.map(todo => (
           <TodoItem 
             key={todo.text} 
