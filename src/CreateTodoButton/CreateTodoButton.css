@@ -23,5 +23,5 @@
 
 .CreateTodoButton:hover {
    background-color: #316de5;
-   transform: rotate(224deg);
+   transform: rotate(135deg);
 }
