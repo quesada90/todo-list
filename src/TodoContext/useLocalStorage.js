@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function useLocalStorage(itemName, initialValue) {
   const [item, setItem] = React.useState(initialValue);
@@ -27,7 +27,7 @@ function useLocalStorage(itemName, initialValue) {
         setError(true);
       }
     }, 2000);
-  }, []);
+  });
 
 
   const saveItem = (newItem) => {
@@ -43,3 +43,15 @@ function useLocalStorage(itemName, initialValue) {
 }
 
 export { useLocalStorage };
+
+// const defaultTodos = [
+//   { text: 'Cortar cebolla', completed: true },
+//   { text: 'Tomar el curso de intro a React', completed: false },
+//   { text: 'Llorar con la llorona', completed: false },
+//   { text: 'Dormir', completed: false },
+//   { text: 'LALALALA ', completed: false },
+//   { text: 'Almorzar', completed: true }
+//   ];
+
+// localStorage.setItem('TODOS_V1', JSON.stringify(defaultTodos));
+// localStorage.removeItem ('TODOS_V1');

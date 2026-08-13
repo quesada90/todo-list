@@ -9,8 +9,11 @@
 .CounterText {
    font-size: 18px;
    font-weight: normal;
+   margin: 0;
+   color: rgb(84, 84, 84);
 }
 
 span {
    font-weight: bold;
+   color: black;
 }
