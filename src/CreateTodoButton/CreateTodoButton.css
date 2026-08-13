@@ -15,8 +15,13 @@
    position: fixed;
    height: 60px;
    width: 60px;
+   z-index: 1;
+
+   transform: rotate(0);
+   transition: .3s ease;
 }
 
 .CreateTodoButton:hover {
    background-color: #316de5;
+   transform: rotate(224deg);
 }
