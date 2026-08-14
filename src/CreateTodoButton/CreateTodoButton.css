@@ -6,13 +6,13 @@
    cursor: pointer;
    font-size: 40px;
    font-weight: bold;
+   position: fixed;
    bottom: 24px;
-   right: 24px;
+   /* right: 24px; */
    color: white;
    display: flex;
    justify-content: center;
    align-items: center;
-   position: fixed;
    height: 60px;
    width: 60px;
    z-index: 1;
