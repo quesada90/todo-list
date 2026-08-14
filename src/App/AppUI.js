@@ -9,7 +9,6 @@ import { EmptyTodos } from "../EmptyTodos";
 import { CreateTodoButton } from "../CreateTodoButton";
 import { TodoForm } from "../TodoForm";
 import { Modal } from "../Modal";
-
 import { TodoContext } from "../TodoContext";
 
 function AppUI() {
