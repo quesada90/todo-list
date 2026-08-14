@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  /* background-color: #d8d8d8; */
+  background-image: url("./assets/background-img.svg");
+  background-size: 100% auto;
   Color: #333232;
   font-family: 'Inter', 'Helvetica Neue',
     sans-serif;
@@ -10,7 +12,14 @@ body {
 }
 
 #root {
-  margin: 0 24px;
+  margin: 0 auto;
+  padding: 0 24px;
+  background-color: #f0f0f0;
   position: relative;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 640px;
 }

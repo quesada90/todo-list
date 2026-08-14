@@ -39,7 +39,7 @@ function TodoForm() {
                onClick={onCancel}
             >Cancel</button>
             <button 
-               type="sumit"
+               type="submit"
                className="TodoForm-button TodoForm-button--add"
                onClick={onSubmit}
             >Add</button>
