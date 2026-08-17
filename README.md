@@ -1,75 +1,59 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# Todo List
 
-¡Hola, Platzinauta!
+A small, focused todo app built with React. Add tasks, mark them done, search, delete — nothing more. The point wasn't to build another todo list. It was to build one from scratch and understand every piece: state, components, persistence, and how they fit together.
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+**Live:** [quesada90.github.io/todo-list](https://quesada90.github.io/todo-list/)
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+---
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+## What it does
 
-## Getting Started with Create React App
+- Add and delete tasks
+- Toggle tasks between complete and pending
+- Search and filter as you type
+- A live counter of what's done vs. what's left
+- Tasks persist in the browser, so nothing is lost on refresh
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+No login, no backend, no distractions. Open it and go.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Why I built it
 
-### `npm start`
+I'm a product designer learning to build what I design. A todo list is the classic first React project for a reason — it forces you through the fundamentals without hiding them behind a framework. Component structure, lifting state up, controlled inputs, persisting data locally. That's why it's here: not as a portfolio piece, but as proof I understand the mechanics under the interfaces I design every day.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built with
 
-### `npm run build`
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bootstrapped with Create React App. State handled with React hooks, persistence through `localStorage`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run it locally
 
-### `npm run eject`
+```bash
+git clone https://github.com/quesada90/todo-list.git
+cd todo-list
+npm install
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Opens at [http://localhost:3000](http://localhost:3000).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To build for production: `npm run build`. To deploy to GitHub Pages: `npm run deploy`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## About me
 
-## Learn More
+Senior Product Designer at [Nacar Design](https://www.nacar.com/) (#1 studio in Spain, iF Ranking), designing complex B2B products — and building the front-end too.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 🌐 Portfolio: [javierquesada.framer.website](https://javierquesada.framer.website/)
+- 💼 LinkedIn: [linkedin.com/in/quesada90](https://linkedin.com/in/quesada90)
+- 🐙 More projects: [github.com/quesada90](https://github.com/quesada90)
